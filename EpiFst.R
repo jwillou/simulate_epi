@@ -1,5 +1,5 @@
-#setwd("/Users/jannawilloughby/Desktop/")
-setwd("/Users/jrw0107/Desktop/")
+#setwd("/Users/jannawilloughby/Google Drive/My Drive/Willoughby lab/projects - active/epi migration/")
+setwd("/Users/jrw0107/Google Drive/My Drive/Willoughby lab/projects - active/epi migration/")
 directory = getwd()
 outdir    = paste(directory,"/output/",sep="")                    #directory to save model output  
 source(paste(directory, "/source/FunctionSourcer.R", sep = ''))   #source functions and set source directory
@@ -16,7 +16,7 @@ env_A     = 0.2
 env_B     = 0.8
 env_sd    = 0
 noise_sd  = 0
-n_loci    = 5
+n_loci    = 50
 selection = 0 #0 turns off selection
 
 # Create progress log file
